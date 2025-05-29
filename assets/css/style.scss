@@ -1,0 +1,111 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom Pink Theme Overrides */
+
+/* Header gradient with pink tones */
+.page-header {
+  background: linear-gradient(120deg, #ff69b4, #ff1493, #dc143c) !important;
+  background-image: linear-gradient(120deg, #ff69b4, #ff1493, #dc143c) !important;
+}
+
+/* Pink accent for links */
+.main-content a {
+  color: #e91e63;
+}
+
+.main-content a:hover {
+  color: #ad1457;
+  text-decoration: underline;
+}
+
+/* Pink headers */
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
+  color: #d81b60;
+}
+
+/* Pink buttons and interactive elements */
+.btn {
+  background-color: #ff69b4 !important;
+  background-image: linear-gradient(120deg, #ff69b4, #ff1493) !important;
+  border-color: #ff1493 !important;
+}
+
+.btn:hover {
+  background-color: #ff1493 !important;
+  background-image: linear-gradient(120deg, #ff1493, #dc143c) !important;
+  border-color: #dc143c !important;
+}
+
+/* Pink borders and accents */
+.main-content blockquote {
+  border-left: 4px solid #ff69b4;
+  background-color: #ffeef7;
+}
+
+/* Pink table headers */
+.main-content table th {
+  background-color: #ff69b4;
+  color: white;
+}
+
+.main-content table tr:nth-child(even) {
+  background-color: #ffeef7;
+}
+
+/* Pink code blocks */
+.main-content pre {
+  border: 1px solid #ff69b4;
+  background-color: #ffeef7;
+}
+
+.main-content code {
+  background-color: #ffeef7;
+  color: #d81b60;
+  border: 1px solid #ffb3d9;
+}
+
+/* Pink highlights for emphasis */
+.main-content em {
+  color: #d81b60;
+  font-style: italic;
+}
+
+.main-content strong {
+  color: #ad1457;
+}
+
+/* Custom pink styling for emojis and fun elements */
+.main-content h1:contains("🎉"),
+.main-content h2:contains("🎉"),
+.main-content h3:contains("🎉") {
+  background: linear-gradient(45deg, #ff69b4, #ff1493);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Pink scrollbar for webkit browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f8f8f8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff69b4;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ff1493;
+}
